@@ -10,6 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --prod",
+
     "deploy:firebase": "ng build --prod && firebase deploy",
     "deploy:gh": "ng build --prod --base-href='https://whoussen.github.io/followers-app/' && git config --global user.email 'w_houssen@yahoo.com' && ngh"
   },
@@ -50,5 +51,9 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2"
+  },
+  "engines":{
+    "node":"14.15.4",
+    "npm":"6.14.10"
   }
 }
